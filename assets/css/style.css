@@ -1,0 +1,68 @@
+* {
+    padding: 0.5em;
+    margin: 0.5em;
+    box-sizing: border-box;
+}
+
+/* div {
+    background-color: rgba(255, 0, 0, 0.6);
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    margin: 20vh auto;
+}
+
+div:hover {
+    /* transform: rotate(90deg);
+    transform: rotate(90deg) scale(1.2) translateX(150px);
+    width: 150px;
+    height: 150px;
+    transition: all 2s ease; 
+}*/
+
+/*  Level1_2 */
+
+body {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    grid-template-areas: "area1 area2 ares3"
+        "area4 area5 area6";
+    gap: 60px;
+}
+
+div {
+    background-color: rgba(46, 111, 62, 0.902);
+    border-radius: 10px;
+    font-size: 2.4rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1.5s linear;
+
+}
+
+.translate:hover {
+    transform: translate(50px, 50px);
+}
+
+.translateX:hover {
+    transform: translateX(-50px);
+}
+
+.translateY:hover {
+    transform: translateY(50px);
+}
+
+.rotate:hover {
+    transform: rotate(45deg);
+}
+
+.scale:hover {
+    transform: scale(1.4);
+}
+
+.skew:hover {
+    transform: skew(10deg, 10deg);
+}
